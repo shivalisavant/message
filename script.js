@@ -7,7 +7,7 @@ const noBtn = document.querySelector(".no-btn");
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "Not surprised...at all";
   gif.src =
-    "https://giphy.com/gifs/video-youtube-add-oDK8A6xUNjD2M";
+    "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDd4M3llZzkzNTBkMm83dXEzOTR5a3VwajNpbmViNXE2YjU4MWI4NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oDK8A6xUNjD2M/giphy-downsized-large.gif";
 });
 
 noBtn.addEventListener("mouseover", () => {
